@@ -1074,7 +1074,7 @@ wishBtn.addEventListener('click', () => {
   starEl.style.left = '92%'; starEl.style.top = '18%';
   starEl.classList.remove('is-flying');
   requestAnimationFrame(() => starEl.classList.add('is-flying'));
-  window.open('https://www.instagram.com/direct/t/kishorak_/', '_blank');
+  window.open('https://www.instagram.com/direct/new/?username=kishorak_', '_blank');
   wishBtn.textContent = '✨ wish sent'; wishBtn.classList.add('is-sent');
   setTimeout(() => { wishBtn.textContent = '🌠 make a wish'; wishBtn.classList.remove('is-sent'); }, 2200);
 });
